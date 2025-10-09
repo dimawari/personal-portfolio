@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "package.json": "^2.0.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
-  "devDependencies": {
+    "homepage": "https://dimawari.github.io/personal-portfolio/",
+    "devDependencies": {
     "@eslint/js": "^9.36.0",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
