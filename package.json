@@ -1,8 +1,12 @@
 {
-  "dependencies": {
-    "gh-pages": "^6.3.0",
+  "name": "my-portfolio-vite",
+  "version": "1.0.0",
+  "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "homepage": "https://github.com/dimawari/personal-portfolio/"
-  }
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://dimawari.github.io/personal-portfolio/"
 }
